@@ -1,2 +1,2 @@
 # Dendrite
-Onboard System for handling instructions, translating XRIF to platform-specific instructions
+Onboard System for translating XRIF to platform-specific instructions and managing tasks.
