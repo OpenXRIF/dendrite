@@ -1,0 +1,16 @@
+[package]
+name = "dendrite-rs"
+version = "0.1.0"
+authors = ["Ammar Siddiqui <ammar.siddiqui847@gmail.com>"]
+edition = "2024"
+
+[dependencies]
+rclrs = "*"
+anyhow = {version = "1", features = ["backtrace"]}
+
+[[bin]]
+name = "dendrite_rs_node"
+path = "src/main.rs"
+
+[package.metadata.ros]
+install_to_share = ["launch"]
