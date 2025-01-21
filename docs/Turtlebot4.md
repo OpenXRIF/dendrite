@@ -7,25 +7,25 @@
 ./turtlebot4/start.sh
 ```
 
-2. Run VPN with Turtlebot ID
+2. Run VPN with Turtlebot ID (in the container)
 
 ```sh
 ./turtlebot/vpn/vpn.sh <robot_id>
 ```
 
-3. In a seperate terminal, open the container again and check ROS2 topics
+3. Check ROS2 topics
 
 ```sh
 ros2 topic list
 ```
 
-4. ssh into the Turtlebot
+### Useful Commands
+
+SSH into the Turtlebot
 
 ```sh
 ssh ubuntu@<raspberry_pi_ip_addr>
 ```
-
-### Useful Commands
 
 Run Rviz for visualization
 
